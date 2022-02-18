@@ -2,7 +2,7 @@
   "name": "ic-ajax",
   "version": "2.0.2",
   "description": "ember friendly $.ajax wrapper",
-  "main": "dist/cjs/main.js",
+  "main": "lib/main.js",
   "devDependencies": {
     "karma": "^0.10.9",
     "karma-chrome-launcher": "^0.1.2",
@@ -35,5 +35,8 @@
     "url": "https://github.com/instructure/ic-ajax/issues"
   },
   "homepage": "https://github.com/instructure/ic-ajax",
-  "dependencies": {}
+  "peerDependencies": {
+    "ember-source": "^3.28",
+    "jquery": "^3.5"
+  }
 }
