@@ -1,6 +1,6 @@
 {
   "name": "ic-ajax",
-  "version": "2.0.2",
+  "version": "3.0.0-intercom.esm.1",
   "description": "ember friendly $.ajax wrapper",
   "main": "lib/main.js",
   "devDependencies": {
